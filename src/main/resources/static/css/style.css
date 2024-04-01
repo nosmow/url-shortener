@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container {
+    background-color: #414141;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+h1 {
+    color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form .container-form {
+    width: 70%;
+    margin: 30px auto auto auto;
+}
+form .container-form label {
+    color: #f4f4f4;
+    font-weight: 400;
+}
+
+form .container-form .container-input {
+    display: flex;
+    justify-content: space-between;
+}
+form .container-form .urlname {
+    width: calc(100%);
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #343434;
+    margin-top: 10px;
+    color: #f4f4f4;
+    padding: 0 10px;
+}
+form .container-form .container-input input {
+    width: calc(100% - 80px);
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #343434;
+    margin-top: 10px;
+    color: #f4f4f4;
+    padding: 0 10px;
+}
+
+form .container-form .container-input button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #f4f4f4;
+    margin-top: 10px;
+    color: #f4f4f4;
+    padding: 0 10px;
+}
+form .container-form .container-input button i {
+    color: #292929;
+    font-size: 16px;
+}
+
+form .container-form .submit {
+    display: block;
+    width: 200px;
+    padding: 15px 0;
+    border: 0;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    margin: 40px auto auto auto;
+    color: #292929;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+}
