@@ -24,7 +24,7 @@ public class UrlController {
         service.generateShortLink(data);
 
         System.out.println(data.toString());
-        String urll = "http://localhost:8080/" + service.findUrl(data.originalUrl());
+        String urll = "https://url-shortener-mv80.onrender.com/" + service.findUrl(data.originalUrl());
         model.addAttribute("shortLink", urll);
         return "shortened";
     }
